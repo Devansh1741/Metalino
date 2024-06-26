@@ -11,12 +11,12 @@ export default function Hero() {
                 <p className="my-6 text-gray-500 text-sm">
                 Discover a curated selection of premium Italian ingredients, from artisanal pasta to rich olive oils and delectable sauces. Our collection features handpicked products from small-scale Italian producers dedicated to quality and tradition. Enhance your cooking with our premium olive oils, traditional pasta, and an assortment of gourmet pantry staples like balsamic vinegar and truffles. Join our community of food lovers and embark on a gastronomic journey with Metalino, where every meal celebrates good food, good company, and the joy of cooking. Buon appetito!
                 </p>
-                <div className="flex gap-4 text-sm ">
+                <div className="flex gap-2 text-sm">
                     <button 
-                    className="bg-primary flex items-center uppercase gap-2 text-white px-4 py-2 rounded-full">
+                    className="bg-primary flex justify-center items-center uppercase gap-2 text-white px-4 py-2 rounded-full">
                         Order Now <Right />
                     </button>
-                    <button className="flex gap-2 py-2 items-center text-gray-600 font-semibold">Learn More <Right /> </button>
+                    <button className="flex border-0 gap-2 py-2 justify-center items-center text-gray-600 font-semibold">Learn More <Right /> </button>
                 </div>
             </div>
             <div className="relative">
